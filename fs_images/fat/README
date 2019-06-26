@@ -1,0 +1,5 @@
+Each image has a corresponding text file containing the commands used invoked in its creation.
+
+All images were created on an Ubuntu 18.04 virtual machine.
+
+The drive referenced in each text file (/dev/sda) is a flash drive with 4MiB paritions numbered 1-11.
