@@ -21,5 +21,3 @@ umount /mnt
 mount /dev/sda4 /mnt
 cp test_files/bb1M /mnt
 umount /mnt
-
-works!!!
