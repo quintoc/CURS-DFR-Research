@@ -1,5 +1,5 @@
 dd bs=1M if=/dev/zero of=/dev/sda15
-mkfs.fat /dev/sda15
+mkfs.fat -n CASE_9 /dev/sda15
 mount /dev/sda15 /mnt
 cp test_files/bb1M /mnt
 cp test_files/dd1M /mnt
