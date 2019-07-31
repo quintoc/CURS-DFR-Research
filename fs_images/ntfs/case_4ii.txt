@@ -1,0 +1,11 @@
+format I: /fs:NTFS /v:CASE_4II /p:1
+copy test_files\cc1K I:
+copy test_files\aa3M I:
+sync I
+del I:cc1K
+del I:aa3M
+sync I
+copy test_files\dd1M I:
+del I:dd1M
+copy test_files\bb1M I:
+sync I
