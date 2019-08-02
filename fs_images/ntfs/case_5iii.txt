@@ -1,4 +1,4 @@
-format M: /fs:NTFS /v:CASE_4III /p:1
+format M: /fs:NTFS /v:CASE_5III /p:1
 copy test_files\cc1K M:
 copy test_files\aa1M M:
 sync M
